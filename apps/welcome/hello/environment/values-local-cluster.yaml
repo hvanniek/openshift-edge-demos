@@ -1,6 +1,6 @@
 ---
 global:
   cluster: aptiv-opvcm01
-  environment: Management
+  environment: Management Cluster
 
 
