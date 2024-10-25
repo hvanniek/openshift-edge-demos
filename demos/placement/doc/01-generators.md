@@ -72,7 +72,7 @@ To deploy the child applications, create the parent `ApplicationSet` object with
               - git:
                   directories:
                     - path: apps/welcome/*
-                  repoURL: 'https://github.com/luisarizmendi/openshift-edge-demos.git'
+                  repoURL: 'https://github.com/hvanniek/openshift-edge-demos.git'
                   revision: main
               - list:
                   elements:
@@ -97,7 +97,7 @@ To deploy the child applications, create the parent `ApplicationSet` object with
                 - values.yaml
                 - environment/values-{{.cluster}}.yaml
             path: '{{.path.path}}'
-            repoURL: 'https://github.com/luisarizmendi/openshift-edge-demos.git'
+            repoURL: 'https://github.com/hvanniek/openshift-edge-demos.git'
             targetRevision: main
           syncPolicy:
             automated:
@@ -132,7 +132,7 @@ Now we are going to switch the app from the Cloud to the Edge clusters. To do th
               - git:
                   directories:
                     - path: apps/welcome/*
-                  repoURL: 'https://github.com/luisarizmendi/openshift-edge-demos.git'
+                  repoURL: 'https://github.com/hvanniek/openshift-edge-demos.git'
                   revision: main
               - list:
                   elements:

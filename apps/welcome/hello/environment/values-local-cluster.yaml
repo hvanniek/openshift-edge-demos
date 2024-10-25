@@ -1,6 +1,6 @@
 ---
 global:
-  cluster: local-cluster
-  environment: Cloud
+  cluster: aptiv-opvcm01
+  environment: Management
 
 

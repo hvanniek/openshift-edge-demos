@@ -1,7 +1,7 @@
 app:
   name: demo-placement
   namespace: openshift-gitops
-  repoURL: 'https://github.com/luisarizmendi/openshift-edge-demos.git'
+  repoURL: 'https://github.com/hvanniek/openshift-edge-demos.git'
   revision: main
   directories: 
     - apps/welcome/*

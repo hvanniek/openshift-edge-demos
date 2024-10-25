@@ -20,7 +20,7 @@ b) **OpenShift "Hub" Cluster base configuration**
 
 To change values during the demo, fork this repository.
 
-1. Fork `https://github.com/luisarizmendi/openshift-edge-demos` into your GitHub account.
+1. Fork `https://github.com/hvanniek/openshift-edge-demos` into your GitHub account.
 2. Clone it locally on your desktop.
 3. Run the `change_repo_url.sh` script to update all repository references to your fork:
 

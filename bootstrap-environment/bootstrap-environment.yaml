@@ -91,7 +91,7 @@ spec:
             goTemplateOptions: ["missingkey=error"]
             generators:
             - git:
-                repoURL: https://github.com/luisarizmendi/openshift-edge-demos.git
+                repoURL: https://github.com/hvanniek/openshift-edge-demos.git
                 revision: main
                 directories:
                   - path: bootstrap-environment/resources/*
@@ -101,7 +101,7 @@ spec:
               spec:
                 project: default
                 source:
-                  repoURL: https://github.com/luisarizmendi/openshift-edge-demos.git
+                  repoURL: https://github.com/hvanniek/openshift-edge-demos.git
                   targetRevision: main
                   path: '{{.path.path}}'
                 destination:

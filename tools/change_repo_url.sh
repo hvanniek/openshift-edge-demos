@@ -6,7 +6,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 NEW_URL="$1"
-OLD_URL="https://github.com/luisarizmendi/openshift-edge-demos"
+OLD_URL="https://github.com/hvanniek/openshift-edge-demos"
 
 find ../ -type f -exec sed -i "s|$OLD_URL|$NEW_URL|g" {} +
 

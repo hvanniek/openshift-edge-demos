@@ -143,7 +143,7 @@ Ok, now that we have prepared the initial state of our clusters, we can deploy t
               - git:
                   directories:
                     - path: apps/welcome/*
-                  repoURL: 'https://github.com/luisarizmendi/openshift-edge-demos.git'
+                  repoURL: 'https://github.com/hvanniek/openshift-edge-demos.git'
                   revision: main
               - clusterDecisionResource:
                   configMapRef: acm-placement
@@ -170,7 +170,7 @@ Ok, now that we have prepared the initial state of our clusters, we can deploy t
                 - values.yaml
                 - environment/values-{{.name}}.yaml
             path: '{{.path.path}}'
-            repoURL: 'https://github.com/luisarizmendi/openshift-edge-demos.git'
+            repoURL: 'https://github.com/hvanniek/openshift-edge-demos.git'
             targetRevision: main
           syncPolicy:
             automated:
